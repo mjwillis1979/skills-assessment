@@ -76,6 +76,12 @@ td { vertical-align: top; }
 
 /* Contacts Widget */
 .contacts-widget {
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 0 0 6px 0 #000;
+    -webkit-box-shadow: 0 0 6px 0 #000;
+    box-shadow: 0 0 6px 0 #000;
     font: 12px Helvetica, Arial, sans-serif;
     letter-spacing: .4px;
     margin: 10px;
@@ -106,9 +112,6 @@ td { vertical-align: top; }
 /* contact */
 .contacts-widget ul {
     background: #131313;
-    -moz-box-shadow: 0 8px 8px 0 #000;
-    -webkit-box-shadow: 0 8px 8px 0 #000;
-    box-shadow: 0 8px 8px 0 #000;
     float: left;
     margin: 0;
     padding: 0;
@@ -223,9 +226,9 @@ td { vertical-align: top; }
     -moz-border-radius-bottomleft: 12px;
     -webkit-border-radius: 0 0 12px 12px;
     border-radius: 0 0 12px 12px;
-    -moz-box-shadow: 0 0 10px 0 #000;
-    -webkit-box-shadow: 0 0 10px 0 #000;
-    box-shadow: 0 0 10px 0 #000;
+    -moz-box-shadow: 0 -5px 10px -5px #000;
+    -webkit-box-shadow: 0 -5px 10px -5px #000;
+    box-shadow: 0 -5px 10px -5px #000;
     clear: both;
     color: #fff;
     padding: 14px 18px;
